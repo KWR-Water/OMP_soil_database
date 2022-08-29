@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name='OMP_soil_database',
-    version='0.0.3',
+    version='0.2.0',
     packages=find_packages(exclude=['tests*']),
     license='MIT',
     description='A python package for calculating the removal of microbial organisms in the subsurface',
@@ -24,7 +24,7 @@ setup(
     ],
     python_requires='>=3.7',
     project_urls={
-    'Source': 'https://github.com/steven-ros/OMP_soil_database',
+    'Source': 'https://github.com/KWR-Water/OMP_soil_database',
     'Documentation': 'http://OMP_soil_database.readthedocs.io/en/latest/',
     'Tracker': 'https://github.com/KWR-Water/OMP_soil_database/issues',
     'Help': 'https://github.com/KWR-Water/OMP_soil_database/issues',
